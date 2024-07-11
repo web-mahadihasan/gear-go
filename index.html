@@ -21,7 +21,7 @@
        theme: {
          extend: {
            colors: {
-             "primary-btn": '#e76f51',
+             "primary-color": '#e76f51',
              "bg-color": '#E76F511A',
            },
          },
@@ -42,7 +42,7 @@
 </head>
 <body>
     <header class="max-w-7xl mx-auto">
-        <div class="navbar bg-base-100 py-12">
+        <div class="navbar bg-base-100 py-9">
             <div class="flex-1">
               <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -79,24 +79,24 @@
               </ul>
             </div>
             <div class="">
-              <a class="btn bg-primay bg-primary-btn text-white uppercase px-12 py-4 font-medium ml-10 hover:text-black">Login</a>
+              <a class="btn bg-primay bg-primary-color text-white uppercase px-12 py-4 font-medium ml-10 hover:text-black">Login</a>
             </div>
         </div>
         <!-- Nav bar section ends here  -->
 
         <!-- Slider or banner section start here  -->
-       <div>
-        <div class="carousel w-full carousel h-[600px] bg-bg-color rounded-md">
+       <div class="">
+        <div class="carousel w-full carousel bg-bg-color rounded-md z-50 md:h-[600px]">
 
           <!-- Slide one  -->
           <div id="slide1" class="carousel-item relative w-full">
-            <div class="flex justify-between items-center w-full p-24">
-              <div class="space-y-5 text-left">
-                <h1 class="font-bold text-6xl text-black leading-snug">Ride-on R15 V5 <br> with Smile</h1>
+            <div class="flex flex-col justify-between items-center w-full space-y-7 p-8 lg:p-24 md:space-y-0 md:flex-row">
+              <div class="space-y-5 text-left w-full md:w-4/6">
+                <h1 class="font-bold text-black leading-snug text-3xl sm:text-6xl">Ride-on R15 V5 with Smile</h1>
                 <p class="font-light text-base max-w-md opacity-80">Experience pure joy every time you ride the exhilarating R15 V5. Its sleek design and powerful performance will bring a smile to your face with every twist of the throttle.</p>
-                  <a class="btn bg-primay bg-primary-btn text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
+                  <a class="btn bg-primay bg-primary-color text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
               </div>
-              <div class="flex-1 shrink-0">
+              <div class="w-full md:w-4/6">
                 <img
                 src="./images/slider/bike3.png"
                 class="w-full" />
@@ -110,13 +110,13 @@
   
           <!-- Slide two  -->
           <div id="slide2" class="carousel-item relative w-full">
-            <div class="flex justify-between items-center w-full p-24">
-              <div class="space-y-5 text-left">
-                <h1 class="font-bold text-6xl text-black leading-snug">Feel the Rush <br> Ride Free</h1>
+            <div class="flex flex-col justify-between items-center w-full space-y-7 p-8 lg:p-24 md:space-y-0 md:flex-row">
+              <div class="space-y-5 text-left w-full sm:w-4/6">
+                <h1 class="font-bold text-black leading-snug text-3xl md:text-6xl">Feel the Rush, Ride Free</h1>
                 <p class="font-light text-base max-w-md opacity-80">Embark on an exhilarating journey where every ride offers a rush of adrenaline and the freedom to explore new horizons. Experience the joy of riding without limits.</p>
-                  <a class="btn bg-primay bg-primary-btn text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
+                  <a class="btn bg-primay bg-primary-color text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
               </div>
-              <div class="flex-1 shrink-0">
+              <div class="w-full md:w-4/6">
                 <img
                 src="./images/slider/bike2.png"
                 class="w-full" />
@@ -130,13 +130,13 @@
   
           <!-- Slide three  -->
           <div id="slide3" class="carousel-item relative w-full">
-            <div class="flex justify-between items-center w-full p-24">
-              <div class="space-y-5 text-left">
-                <h1 class="font-bold text-6xl text-black leading-snug">Embrace the Thrill <br> Ride Stylish</h1>
+            <div class="flex flex-col justify-between items-center w-full space-y-7 p-8 lg:p-24 md:space-y-0 md:flex-row">
+              <div class="space-y-5 text-left w-full md:w-4/6">
+                <h1 class="font-bold text-black leading-snug text-3xl sm:text-6xl">Embrace the Thrill, Ride Stylish</h1>
                 <p class="font-light text-base max-w-md opacity-80">Immerse yourself in the exhilarating experience of embracing the thrill while riding with unmatched style. Feel the rush of adrenaline as you carve through the streets with confidence and flair</p>
-                  <a class="btn bg-primay bg-primary-btn text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
+                  <a class="btn bg-primay bg-primary-color text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
               </div>
-              <div class="flex-1 shrink-0">
+              <div class="w-full md:w-4/6">
                 <img
                 src="./images/slider/bike1.png"
                 class="w-full" />
@@ -150,13 +150,13 @@
   
           <!-- Slide four  -->
           <div id="slide4" class="carousel-item relative w-full">
-            <div class="flex justify-between items-center w-full p-24">
-              <div class="space-y-5 text-left">
-                <h1 class="font-bold text-6xl text-black leading-snug">Drive Your Dreams <br> Ride Joy</h1>
+            <div class="flex flex-col justify-between items-center w-full space-y-7 p-8 lg:p-24 md:space-y-0 md:flex-row">
+              <div class="space-y-5 text-left w-full md:w-4/6">
+                <h1 class="font-bold text-black leading-snug text-3xl sm:text-6xl">Drive Your Dreams, Ride Joy</h1>
                 <p class="font-light text-base max-w-md opacity-80">Experience the exhilaration of chasing your dreams and finding pure joy in the freedom of riding. Feel the wind in your hair, the thrill of every curve, and the limitless possibilities ahead.</p>
-                  <a class="btn bg-primay bg-primary-btn text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
+                  <a class="btn bg-primay bg-primary-color text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
               </div>
-              <div class="flex-1 shrink-0">
+              <div class="w-full md:w-4/6">
                 <img
                 src="./images/slider/bike4.png"
                 class="w-full" />
@@ -175,29 +175,191 @@
     </header>
 
     <!-- main section start here -->
-    <main class=" max-w-7xl mx-auto space-y-32 mt-32">
+    <main class=" max-w-7xl mx-auto space-y-32 mt-32 px-8 lg:px-0">
       
       <!-- Feature Bikes this year start  -->
-      <section class="space-y-12">
+      <section class="space-y-12 px-8">
         
         <div class="text-center">
           <h1 class="text-5xl font-semibold text-black capitalize">Fetured Bikes In This Year</h1>
-          <p class="text-base font-medium text-primary-btn mt-5">Best bike collection</p>
-          <p class="w-24 h-[2px] mt-1 bg-primary-btn mx-auto"></p>
+          <p class="text-base font-medium text-primary-color mt-5">Best bike collection</p>
+          <p class="w-24 h-[2px] mt-1 bg-primary-color mx-auto"></p>
         </div>
 
-        <div class="space-y-12 md:flex justify-between items-center">
-          <div class=" p-6"><img src="./images/others/feature-bike.png" alt="Feature bike one" class="grayscale"></div>
-          <div class="shadow-md p-6"><img src="./images/others/feature-bike.png" alt="Feature bike tow"></div>
-          <div class="shadow-md p-6"><img src="./images/others/feature-bike.png" alt="Feature bike three" class="grayscale"></div>
+        <div class="space-y-12 flex flex-col items-center justify-between md:flex-row md:space-y-0">
+          <div class="p-6"><img src="./images/others/feature-bike.png" alt="Feature bike one" class="grayscale"></div>
+          <div class="p-6"><img src="./images/others/feature-bike.png" alt="Feature bike tow"></div>
+          <div class="p-6"><img src="./images/others/feature-bike.png" alt="Feature bike three" class="grayscale"></div>
         </div>        
       </section>
       <!-- Feature Bikes this year ends  -->
 
-      <section>
+      <!-- Lasted news section start  -->
+      <section class="space-y-12 px-8">
+
+        <div class="text-center text-5xl font-semibold capitalize">latest News</div>
+
+        <div class="space-y-7 grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:space-y-0">
+          <!-- Lasted news 1 -->
+          <div class="card bg-base-100 shadow-xl h-[580px] ">
+            <figure>
+              <img
+                src="./images/others/latest1.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body space-y-5">
+              <h3 class="font-semibold text-2xl">Ducati XDIAVEL S-73</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn bg-primary-color text-white uppercase px-12 py-4 font-medium hover:text-primary-color hover:bg-transparent hover:border hover:border-red-400">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- lasted news 2  -->
+          <div class="card bg-base-100 shadow-xl h-[580px] ">
+            <figure>
+              <img
+                src="./images/others/latest2.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body space-y-5">
+              <h3 class="font-semibold text-2xl">Motorcycles & Scooters</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn btn-outline  text-primary-color uppercase px-12 py-4 font-medium hover:text-white hover:bg-primary-color hover:outline-none hover:border-none ">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- lasted news 3  -->
+          <div class="card bg-base-100 shadow-xl h-[580px] ">
+            <figure>
+              <img
+                src="./images/others/latest3.png"
+                alt="Shoes" />
+            </figure>
+            <div class="card-body space-y-5">
+              <h3 class="font-semibold text-2xl">2021 Honda CBR500R</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <div class="card-actions">
+                <button class="btn btn-outline  text-primary-color uppercase px-12 py-4 font-medium hover:text-white hover:bg-primary-color hover:outline-none hover:border-none ">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
 
       </section>
-    </main>
+      <!-- lasted news section ends  -->
+
+        <!-- Happy client says  -->
+      <section class="space-y-12 px-8">
+        <div>
+          <h1 class="text-center text-5xl font-semibold capitalize">Happy <span class="text-primary-color">Clients says</span></h1>
+        </div>
+
+          <!-- client says w-96 -->
+        <div class="grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3">
+
+            <!-- First Review  -->
+            <div class="card bg-base-100 p-7 space-y-5 border">
+              
+                <div class="avatar flex items-center justify-center">
+                  <div class="ring-primary-color ring-offset-base-100 w-32 rounded-full ring ring-offset-4">
+                    <img src="./images/others/user-1.png" class="w-32"/>
+                  </div>
+                </div>
+                <div class="card-body items-center text-center space-y-4">
+                    <p>Slate helps you see how many more days you need to work to reach your financial 
+                    goal for the month and year.</p>
+                <div class="rating rating-sm">
+                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                </div>
+                <div class="space-y-3">
+                  <h3 class="text-info font-semibold text-base capitalize">Regina Miles</h3>
+                  <p class="text-black font-semibold text-sm">Banker</p>
+                </div>
+                
+              </div>
+            </div>
+
+            <!-- Second Review  -->
+            <div class="card bg-base-100 p-7 space-y-5 border">
+              
+              <div class="avatar flex items-center justify-center">
+                <div class="ring-primary-color ring-offset-base-100 w-32 rounded-full ring ring-offset-4">
+                  <img src="./images/others/user-2.png" class="w-32"/>
+                </div>
+              </div>
+              <div class="card-body items-center text-center space-y-4">
+                  <p>Slate helps you see how many more days you need to work to reach your financial 
+                  goal for the month and year.</p>
+              <div class="rating rating-sm">
+                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class="space-y-3">
+                <h3 class="text-info font-semibold text-base capitalize">Donna Dubinsky</h3>
+                <p class="text-black font-semibold text-sm capitalize">product manager</p>
+              </div>
+              
+            </div>
+          </div>
+
+          <!-- Third Review  -->
+            <div class="card bg-base-100 p-7 space-y-5 border">
+                
+              <div class="avatar flex items-center justify-center">
+                <div class="ring-primary-color ring-offset-base-100 w-32 rounded-full ring ring-offset-4">
+                  <img src="./images/others/user-3.png" class="w-32"/>
+                </div>
+              </div>
+              <div class="card-body items-center text-center space-y-4">
+                  <p>Slate helps you see how many more days you need to work to reach your financial 
+                  goal for the month and year.</p>
+              <div class="rating rating-sm">
+                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
+              </div>
+              <div class="space-y-3">
+                <h3 class="text-info font-semibold text-base capitalize">Linda Stone</h3>
+                <p class="text-black font-semibold text-sm">UI/UX Designer</p>
+              </div>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+        <!-- Happy client says  -->
+
+        <!-- FAQ/Frequently Asked Questions Section start here  -->
+        <section>
+          <div class="text-center">
+            <h1 class="text-5xl font-semibold capitalize">Frequently <span class="text-primary-color">Asked Questions</span></h1>
+          </div>
+
+          <!-- FAQ/Frequently Asked Questions -->
+           <div>
+
+           </div>
+        </section>
+        <!-- FAQ/Frequently Asked Questions Section start here  -->
+
+        <section></section>
+      </main>
     <!-- main section ends here -->
     
 </body>
