@@ -23,6 +23,7 @@
            colors: {
              "primary-color": '#e76f51',
              "bg-color": '#E76F511A',
+             "text-gray": '#7E848C',
            },
          },
        },
@@ -61,7 +62,7 @@
                 </div>
                 <ul
                   tabindex="0"
-                  class="menu menu-sm dropdown-content text-sm bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  class="menu menu-sm dropdown-content text-base bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
                   <li><a>Home</a></li>
                   <li><a>Shop</a></li>
                   <li><a>News</a></li>
@@ -71,7 +72,7 @@
               <a class="text-xl font-semibold uppercase md:text-4xl">Gear & Go</a>
             </div>
             <div class=" hidden lg:flex">
-              <ul class="menu menu-horizontal text-sm px-1 font-medium space-x-9">
+              <ul class="menu menu-horizontal text-base px-1 font-medium space-x-8">
                   <li><a>Home</a></li>
                   <li><a>Shop</a></li>
                   <li><a>News</a></li>
@@ -201,15 +202,15 @@
 
         <div class="space-y-7 grid gap-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 sm:space-y-0">
           <!-- Lasted news 1 -->
-          <div class="card bg-base-100 shadow-xl h-[580px] ">
-            <figure>
+          <div class="card bg-base-100 shadow border h-[580px] ">
+            <figure class="p-6">
               <img
                 src="./images/others/latest1.png"
                 alt="Shoes" />
             </figure>
             <div class="card-body space-y-5">
               <h3 class="font-semibold text-2xl">Ducati XDIAVEL S-73</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <p class="text-text-gray text-base font-normal leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
               <div class="card-actions">
                 <button class="btn bg-primary-color text-white uppercase px-12 py-4 font-medium hover:text-primary-color hover:bg-transparent hover:border hover:border-red-400">Buy Now</button>
               </div>
@@ -217,15 +218,15 @@
           </div>
 
           <!-- lasted news 2  -->
-          <div class="card bg-base-100 shadow-xl h-[580px] ">
-            <figure>
+          <div class="card bg-base-100 shadow border h-[580px] ">
+            <figure class="p-6">
               <img
                 src="./images/others/latest2.png"
                 alt="Shoes" />
             </figure>
             <div class="card-body space-y-5">
               <h3 class="font-semibold text-2xl">Motorcycles & Scooters</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <p class="text-text-gray text-base font-normal leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
               <div class="card-actions">
                 <button class="btn btn-outline  text-primary-color uppercase px-12 py-4 font-medium hover:text-white hover:bg-primary-color hover:outline-none hover:border-none ">Buy Now</button>
               </div>
@@ -233,15 +234,15 @@
           </div>
 
           <!-- lasted news 3  -->
-          <div class="card bg-base-100 shadow-xl h-[580px] ">
-            <figure>
+          <div class="card bg-base-100 shadow border h-[580px] ">
+            <figure class="p-6">
               <img
                 src="./images/others/latest3.png"
                 alt="Shoes" />
             </figure>
             <div class="card-body space-y-5">
               <h3 class="font-semibold text-2xl">2021 Honda CBR500R</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
+              <p class="text-text-gray text-base font-normal leading-7">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lacus, fermentum amet faucibus sed id nisi lectus at.</p>
               <div class="card-actions">
                 <button class="btn btn-outline  text-primary-color uppercase px-12 py-4 font-medium hover:text-white hover:bg-primary-color hover:outline-none hover:border-none ">Buy Now</button>
               </div>
@@ -271,15 +272,15 @@
                   </div>
                 </div>
                 <div class="card-body items-center text-center space-y-4">
-                    <p>Slate helps you see how many more days you need to work to reach your financial 
+                    <p class="text-text-gray text-base font-normal leading-7">Slate helps you see how many more days you need to work to reach your financial 
                     goal for the month and year.</p>
-                <div class="rating rating-sm">
-                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked="checked"/>
-                    <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                </div>
+                    <div class="rating rating-sm">
+                      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                      <input type="radio" name="rating-1" class="mask mask-star-2 bg-orange-400" />
+                    </div>
                 <div class="space-y-3">
                   <h3 class="text-info font-semibold text-base capitalize">Regina Miles</h3>
                   <p class="text-black font-semibold text-sm">Banker</p>
@@ -297,15 +298,15 @@
                 </div>
               </div>
               <div class="card-body items-center text-center space-y-4">
-                  <p>Slate helps you see how many more days you need to work to reach your financial 
+                  <p class="text-text-gray text-base font-normal leading-7">Slate helps you see how many more days you need to work to reach your financial 
                   goal for the month and year.</p>
-              <div class="rating rating-sm">
-                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked="checked"/>
-                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-              </div>
+                  <div class="rating rating-sm">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked="checked" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
               <div class="space-y-3">
                 <h3 class="text-info font-semibold text-base capitalize">Donna Dubinsky</h3>
                 <p class="text-black font-semibold text-sm capitalize">product manager</p>
@@ -323,15 +324,15 @@
                 </div>
               </div>
               <div class="card-body items-center text-center space-y-4">
-                  <p>Slate helps you see how many more days you need to work to reach your financial 
+                  <p class="text-text-gray text-base font-normal leading-7">Slate helps you see how many more days you need to work to reach your financial 
                   goal for the month and year.</p>
-              <div class="rating rating-sm">
-                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" checked="checked"/>
-                  <input type="radio" name="rating-6" class="mask mask-star-2 bg-orange-400" />
-              </div>
+                  <div class="rating rating-sm">
+                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" checked="checked"/>
+                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400"  />
+                    <input type="radio" name="rating-3" class="mask mask-star-2 bg-orange-400" />
+                  </div>
               <div class="space-y-3">
                 <h3 class="text-info font-semibold text-base capitalize">Linda Stone</h3>
                 <p class="text-black font-semibold text-sm">UI/UX Designer</p>
@@ -346,13 +347,52 @@
         <!-- Happy client says  -->
 
         <!-- FAQ/Frequently Asked Questions Section start here  -->
-        <section>
-          <div class="text-center">
+        <section class="space-y-14 md:p-7">
+          <div class="text-center ">
             <h1 class="text-5xl font-semibold capitalize">Frequently <span class="text-primary-color">Asked Questions</span></h1>
           </div>
 
           <!-- FAQ/Frequently Asked Questions -->
-           <div>
+           <div class="grid grid-cols-1 space-y-7 gap-4 sm:grid-cols-2">
+
+            <div>
+              <img src="./images/others/faq.png" alt="" class="w-full md:w-auto">
+            </div>
+
+            <div class="space-y-3">
+              <div class="collapse collapse-arrow border w-full">
+                <input type="radio" name="my-accordion-2" checked="checked" />
+                <div class="collapse-title text-xl font-medium">What are the most important things I should
+                  know about riding a bike?</div>
+                <div class="collapse-content">
+                  <p class="text-text-gray text-base font-normal leading-7">Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+  
+              <div class="collapse collapse-arrow border">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">Click to open this one and close othersHow can I tell if my helmet is old and I need a new one?</div>
+                <div class="collapse-content">
+                  <p class="text-text-gray text-base font-normal leading-7">Replace Your Helmet If You've Been in an Accident or a Crash. Any time you've been in an accident or crash, you should replace your helmet immediately.</p>
+                </div>
+              </div>
+  
+              <div class="collapse collapse-arrow border">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+                <div class="collapse-content">
+                  <p class="text-text-gray text-base font-normal leading-7">Studying abroad can be difficult without the proper finances, but there are options available to international students to help them pursue their dreams.</p>
+                </div>
+              </div>
+  
+              <div class="collapse collapse-arrow border">
+                <input type="radio" name="my-accordion-2" />
+                <div class="collapse-title text-xl font-medium">What rules should I follow when riding my bike?</div>
+                <div class="collapse-content">
+                  <p class="text-text-gray text-base font-normal leading-7">Here are some rules to keep in mind when riding a bike: Safety, Visibility, Traffic signals, Yielding, Predictability, Flow of traffic, Crosswalks, Acrobatics. Safe ride and stay happy</p>
+                </div>
+              </div>
+            </div>
 
            </div>
         </section>
@@ -361,6 +401,33 @@
         <section></section>
       </main>
     <!-- main section ends here -->
+
+      <!-- footer section start here  -->
+      <footer class=" bg-black text-neutral-content h-[240px]">
+        <div class="max-w-7xl mx-auto flex justify-between items-center h-full px-12">
+          <nav class="space-y-5">
+            <h3 class="text-xl font-semibold uppercase md:text-4xl cursor-pointer">GEAR & GO</h3>
+            <ul class="flex gap-6">
+              <li><a class="link link-hover">About</a></li>
+              <li><a class="link link-hover">Features</a></li>
+              <li><a class="link link-hover">Pricing</a></li>
+              <li><a class="link link-hover">Careers</a></li>
+              <li><a class="link link-hover">Help</a></li>
+              <li><a class="link link-hover">Privacy Policy</a></li>
+            </ul>
+            <p>Copyright &copy 2020 bike. All rights reserved</p>
+          </nav>
+    
+          <nav>
+            <h6 class="font-semibold capitalize mb-5 text-white">Get the App</h6>
+            <div class=" space-y-5">
+              <a class="block cursor-pointer"><img src="./images/others/android.png" alt="" class="h-9"></a>
+              <a class="block cursor-pointer"><img src="./images/others/ios.png" alt="" class="h-9"></a>
+            </div>
+          </nav>
+        </div>
+      </footer>
+      <!-- footer section ends here  -->
     
 </body>
 </html>
