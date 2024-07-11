@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bike Zone | daisyUI</title>
+
+    <!-- Tailwind and DaisyUI links  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind and DaisyUI links  -->
+
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap" rel="stylesheet">
+    <!-- google fonts  -->
+    <!-- Script part  -->
+    <script>
+     tailwind.config = {
+       theme: {
+         extend: {
+           colors: {
+             "primary-btn": '#e76f51',
+             "bg-color": '#E76F511A',
+           },
+         },
+       },
+     }
+   </script>
+    <!-- Script part  -->
+     <style>
+        *{
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box!important;
+          font-family: 'Poppins', sans-serif;
+        }
+     </style>
+
+
+</head>
+<body>
+    <header class=" max-w-7xl mx-auto ">
+        <div class="navbar bg-base-100 py-12">
+            <div class="flex-1">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4 6h16M4 12h8m-8 6h16" />
+                  </svg>
+                </div>
+                <ul
+                  tabindex="0"
+                  class="menu menu-sm dropdown-content text-sm bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                  <li><a>Home</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>News</a></li>
+                  <li><a>Contact</a></li>
+                </ul>
+              </div>
+              <a class="text-xl font-semibold uppercase md:text-4xl">Gear & Go</a>
+            </div>
+            <div class=" hidden lg:flex">
+              <ul class="menu menu-horizontal text-sm px-1 font-medium space-x-9">
+                  <li><a>Home</a></li>
+                  <li><a>Shop</a></li>
+                  <li><a>News</a></li>
+                  <li><a>Contact</a></li>
+              </ul>
+            </div>
+            <div class="">
+              <a class="btn bg-primay bg-primary-btn text-white uppercase px-12 py-4 font-medium ml-10 hover:text-black">Login</a>
+            </div>
+        </div>
+        <!-- Nav bar section ends here  -->
+
+        <!-- Slider or banner section start here  -->
+       <div>
+        <div class="carousel w-full carousel h-[600px] bg-bg-color rounded-md">
+
+          <!-- Slide one  -->
+          <div id="new1" class="carousel-item relative w-full">
+            <div class="flex justify-between items-center w-full p-24">
+              <div class="space-y-5 text-left">
+                <h1 class="font-bold text-6xl text-black leading-snug">Ride-on R15 V5 <br> with Smile</h1>
+                <p class="font-light text-base max-w-md opacity-80">Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  <a class="btn bg-primay bg-primary-btn text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
+              </div>
+              <div class="flex-1">
+                <img
+                src="./images/slider/bike3.png"
+                class="w-full" />
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#new4" class="btn btn-circle btn-ghost text-xl">❮</a>
+              <a href="#new2" class="btn btn-circle btn-ghost text-xl">❯</a>
+            </div>
+          </div>
+  
+          <!-- Slide two  -->
+          <div id="new2" class="carousel-item relative w-full">
+            <div class="flex justify-between items-center w-full p-24">
+              <div class="space-y-5 text-left">
+                <h1 class="font-bold text-6xl text-black leading-snug">Ride-on R15 V5 <br> with Smile</h1>
+                <p class="font-light text-base max-w-md opacity-80">Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  <a class="btn bg-primay bg-primary-btn text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
+              </div>
+              <div class="flex-1">
+                <img
+                src="./images/slider/bike2.png"
+                class="w-full" />
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#new1" class="btn btn-circle btn-ghost text-xl">❮</a>
+              <a href="#new3" class="btn btn-circle btn-ghost text-xl">❯</a>
+            </div>
+          </div>
+  
+          <!-- Slide three  -->
+          <div id="new3" class="carousel-item relative w-full">
+            <div class="flex justify-between items-center w-full p-24">
+              <div class="space-y-5 text-left">
+                <h1 class="font-bold text-6xl text-black leading-snug">Ride-on R15 V5 <br> with Smile</h1>
+                <p class="font-light text-base max-w-md opacity-80">Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  <a class="btn bg-primay bg-primary-btn text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
+              </div>
+              <div class="flex-1">
+                <img
+                src="./images/slider/bike1.png"
+                class="w-full" />
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#new2" class="btn btn-circle btn-ghost text-xl">❮</a>
+              <a href="#new4" class="btn btn-circle btn-ghost text-xl">❯</a>
+            </div>
+          </div>
+  
+          <!-- Slide four  -->
+          <div id="new4" class="carousel-item relative w-full">
+            <div class="flex justify-between items-center w-full p-24">
+              <div class="space-y-5 text-left">
+                <h1 class="font-bold text-6xl text-black leading-snug">Ride-on R15 V5 <br> with Smile</h1>
+                <p class="font-light text-base max-w-md opacity-80">Amet minim mollit non deserunt ullamco 
+                  est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+                  <a class="btn bg-primay bg-primary-btn text-white uppercase px-12 py-4 font-medium hover:text-black">Purchase</a>
+              </div>
+              <div class="flex-1">
+                <img
+                src="./images/slider/bike4.png"
+                class="w-full" />
+              </div>
+            </div>
+            <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#new3" class="btn btn-circle btn-ghost text-xl">❮</a>
+              <a href="#new1" class="btn btn-circle btn-ghost text-xl">❯</a>
+            </div>
+          </div>
+  
+  
+        </div>
+       </div>
+        <!-- Slider or banner section start here  -->
+    </header>
+
+    <main class=" max-w-7xl mx-auto">
+
+     
+
+    </main>
+      
+</body>
+</html>
